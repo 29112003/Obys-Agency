@@ -19,7 +19,7 @@ width: 100%;
 }
 
 .loader{
-    /* display: none; */
+    display: none;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -55,6 +55,7 @@ width: 100%;
     justify-content: space-between;
     width: 19vw;
 }
+
 .timer h4{
     font-family: "Silk Serif";
     font-weight: 100;
@@ -162,35 +163,57 @@ width: 100%;
     line-height: 7vw;
     text-transform: uppercase;
 }
-
-.page2{
-    height: 85vh;
+#page2{
+    height: 100vh;
     width: 100%;
+    position: relative;
+    padding: 7vw 0;
+    padding-left: 28vw;
     background-color: #151515;
-    padding-left: 28.5vw;
-    padding-bottom: 10vw;
+    
 }
 
-#videobox{
+
+#video-container{
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: darkorchid;
     position: relative;
 }
-#videobox img{
+
+#video-container img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-video{
-    position: absolute;
-    top: 0%;
-    opacity: 0;
-    right: 0%;
+
+#video-container video{
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
     width: 100%;
+
     object-fit: cover;
-    z-index: 99;
+}
+
+#play-btn{
+    height: 10vw;
+    position: absolute;
+    width: 10vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    left: 70%;
+    top: -15%;
+    z-index: 9;
+
+}
+#play-btn i{
+    font-size: 2.5vw;
 }
 
 
@@ -283,7 +306,6 @@ video{
     position: absolute;
     top: 13.5%;
     left: 0%;
-    /* z-index: 99999; */
 }
 .image1:nth-child(2){
     height: 57vw;
@@ -296,35 +318,29 @@ video{
 #second-img{
     height: 81.3vh;
     top: 9.7%;
-    /* z-index: 99999; */
 }
 
 #third-img{
     height: 79.6vh;
     top: 9.7%;
-    /* z-index: 99999; */
 }
 #third-img{
     height: 81.1vh;
     top: 9.7%;
-    /* z-index: 99999; */
 }
 .image1:nth-child(4){
     height: 57.7vw;
         width: 33vw;
     }
-    
-    #four-img{
+#four-img{
         height: 81.1vh;
         top: 9.7%;
-        /* z-index: 99999; */
     }
-    .image1:nth-child(6){
-        height: 57.7vw;
-        width: 33vw;
-            }
-        #six-img{
-            height: 81.1vh;
-            top: 9.7%;
-            /* z-index: 99999; */
+.image1:nth-child(6){
+    height: 57.7vw;
+    width: 33vw;
         }
+#six-img{
+        height: 81.1vh;
+        top: 9.7%;
+    }
