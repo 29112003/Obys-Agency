@@ -225,4 +225,7 @@ lastText.addEventListener("mouseleave",function(){
 }
 
 
-footerAnimation();
+
+// git add .
+// git commit -m "what you make new"
+// git push

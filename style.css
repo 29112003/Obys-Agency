@@ -524,47 +524,4 @@ body{
         font-weight: 500;
         font-size: 15px;
     }
-
-    .page7{
-        height: 100vh;
-        width: 100%;
-        padding-left: 28vw;
-        background-color: #151515;
-    }
-    .footerText h1{
-        font-size: 7vw;
-    }
-    .footerText{
-        position: relative;
-    }
-    .page7 h2{
-        font-weight: 100;
-        font-size: 7vw;
-        text-transform: uppercase;
-        font-family: "silk serif";
-        position: absolute;
-        top: -8%;
-        height: 20vh;
-        /* overflow: auto; */
-        left: 0;
-        opacity: 1;
-    }
-    .page7header{
-        display: flex;
-        align-items: center;
-        gap: 3vw;
-    }
-    #lastpage{
-        height: 5vw;
-    }
-    .lastheader h2 span{
-        /* color: red; */
-        display: inline-block;
-        -webkit-text-stroke: 1px #fff;
-        color: transparent;
-        opacity: 0;
-        font-family: "silk serif";
-    }
-
-
     
